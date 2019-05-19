@@ -1,24 +1,16 @@
-import React from 'react';
-import { 
-    Form,
-    TextArea,
-    Container,
-    Divider 
-    } from 'semantic-ui-react';
+import React, { Component } from 'react'
+import './App.css'
+import Upload from './upload/Upload'
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
-        <div>
-            <Container textAlign='left'>
-                Text to train your Markov Chain
-                <Divider />
-                <Form>
-                    <TextArea placeholder='Past your text here' />
-                </Form>
-            </Container>
+      <div className="App">
+        <div className="Card">
+          <Upload />
         </div>
-    );
+      </div>
+    )
   }
 }
 
