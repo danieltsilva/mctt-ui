@@ -11,10 +11,10 @@ class TabPointing extends Component {
   constructor(props) {
     super(props);
     this.state = { 
-      isFileUploaded: false,
-      fileName: "teste.txt",
-      order: 0,
-      outputSize: 0,
+      isFileUploaded: true,
+      fileName: "sample.txt",
+      order: 2,
+      outputSize: 20,
       cleanText: true
     };
   }
