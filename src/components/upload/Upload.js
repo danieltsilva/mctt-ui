@@ -124,7 +124,7 @@ class Upload extends Component {
   render() {
     return (
       <div className="Upload">
-        <span className="Title">Upload Files</span>
+        <span className="Title"><b>Please, upload a text file.</b></span>
         <div className="Content">
           <div>
             <Dropzone
@@ -144,6 +144,7 @@ class Upload extends Component {
           </div>
         </div>
         <div className="Actions">{this.renderActions()}</div>
+        <span className="Title">Limit of 200Mb.<br/>Only the last file uploaded will be considered.</span>
       </div>
     );
   }

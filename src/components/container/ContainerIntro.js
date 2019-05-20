@@ -28,7 +28,8 @@ const ContainerIntro = () => (
       </p>
       <p>
           The inputs will be:
-          <List as='ul'>
+      </p>
+        <List as='ul'>
             <List.Item as='li'><b>Text file:</b> a plain text file with maximum size of 200 MB which 
             will be used as a base text to create the transitional matrix through Markov Chain Algorithm;
             </List.Item>
@@ -38,9 +39,8 @@ const ContainerIntro = () => (
             <List.Item as='li'><b>Output size:</b> the number of words the final generated text will 
             have. Note: the <i>output size</i> will be, in fact, the maximum number of words, as 
             there is a possibility of the process choose the final state (the <i>order-th last words</i>
-             of the base text) of the chain before reach the output size requeted. </List.Item>
-          </List>
-      </p>
+                of the base text) of the chain before reach the output size requeted. </List.Item>
+        </List>
 
       <br/>
       <b>Solution Architecture</b>
@@ -64,7 +64,7 @@ const ContainerIntro = () => (
                     <List.Icon name='folder' />
                     <List.Content>
                     <List.Header>mctt-ui</List.Header>
-                    <List.Description>React project as a fron-end</List.Description>
+                    <List.Description>React project as a front-end</List.Description>
                     </List.Content>
                 </List.Item>
                 </List.List>
