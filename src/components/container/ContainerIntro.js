@@ -64,7 +64,7 @@ const ContainerIntro = () => (
                     <List.Icon name='folder' />
                     <List.Content>
                     <List.Header>mctt-ui</List.Header>
-                    <List.Description>React project as a fron-end</List.Description>
+                    <List.Description>React project as a front-end</List.Description>
                     </List.Content>
                 </List.Item>
                 </List.List>

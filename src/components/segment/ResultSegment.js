@@ -20,7 +20,7 @@ class ResultSegment extends Component {
       <div>Hmmm: {`${this.props.cleanText}`}</div>
       <Header icon>
         <Icon name='file alternate outline' />
-        No documents are listed for this customer.
+        No document is uploaded to Markov Chain algorithm process.
       </Header>
       <Button primary>Go to Upload Tab</Button>
     </Segment>)
